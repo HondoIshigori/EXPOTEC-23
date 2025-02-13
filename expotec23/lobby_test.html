@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    </script>
+    <body class="whitemode">
+        <h1>Página Inicial</h1><button class="toggle" onclick="myFunction()">Alternar Modo</button>
+    </body>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <title>Fortec Sugestões</title>
+
+    <div class="darkmode"></div>
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+
+    <hr></hr>
+    <center><h2>COMO FAÇO UMA SUGESTÃO?</h2></center>
+    <center><h4>De uma maneira simples, acesse o formulário de aplicação e preencha com os dados pedidos <br>para que sua proposta seja analisada!</h4></center><br><br>
+
+    <center><iframe id="test" name="test" class="test" src="https://docs.google.com/forms/d/e/1FAIpQLSeIsqiBhgKuYfsdB6Rf_uA7qQ-m8WJcAjBBZbbE-c4i4_zPdQ/viewform?embedded=true">Carregando…</iframe></center>
+
+    <center><h4>Caso haja erros no site, por favor contatar a equipe.</h4>
+    
+    <a href="https://mail.google.com/chat/u/0/?hl=en#chat/dm/zsWmbUAAAAE" sizes="16x16">sugestoesfortec@gmail.com</center>
+
+    <style type="text/css">
+        head {
+            display: flex;
+            position: sticky;
+        }
+
+        .test {
+            display: flex;
+            position: relative;
+            width: 805px;
+            height: 1510px;
+            border-color: transparent;
+
+            border-radius: 0%;
+            
+        }
+
+        .toggle {
+            display: flex;
+            font-size:20px;
+            border-color: #222122;
+            border-radius: 0;
+            color: #676772;
+            position: absolute;
+            overflow: hidden;
+            z-index: 1;
+            -webkit-transition: color 150ms ease-in-out;
+            transition: color 150ms ease-in-out;
+
+            text-shadow: 0px 1px 1px #d0e2e2;
+            margin-left: 1150px;
+            margin-top: -50px;
+        }
+
+        .toggle:after {
+            display: flex;
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 0;
+            height: 100%;
+            background: #2c272e;
+            z-index: -1;
+            -webkit-transition: width 150ms ease-in-out;
+            transition: width 150ms ease-in-out;
+        }
+        .toggle:hover {
+            color: #fff;
+        }
+        .toggle:hover:after {
+            width: 110%;
+        }
+
+        hr{
+            margin-left: -32px;
+            margin-right: -32px;
+            box-shadow: #b6cccc3f 0px 1px 2px 2px;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-style: bold;
+            position: relative;
+            text-shadow: rgba(183, 201, 216, 0.589) 0px 2px 2px;
+        }
+
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            text-shadow: rgba(183, 201, 216, 0.589) 0px 2px 2px;
+        }
+
+        h4{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+        }
+
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            transition: background 0.2s linear;
+        }
+
+        .dark-mode {
+            background-color: rgb(48, 48, 48);
+            color: white;
+            transition: background 0.2s linear;
+        }
+
+        body::-webkit-scrollbar {
+            width: 7px;
+            max-block-size: 20px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.048);
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: rgb(124, 124, 145);
+            border-radius: 10px;
+            border: 1px solid rgba(15, 15, 15, 0.363);
+            -webkit-box-shadow: 0px 0px 10px #bdbdbd;
+            -moz-box-shadow: 0px 0px 10px #bdbdbd;
+            box-shadow: 0px 0px 10px #bdbdbd;
+            
+        }
+
+        a:link {
+            color: rgb(247, 247, 247);
+            border:1px solid rgb(139, 139, 139);
+            border-radius: 4px;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            border:1px solid rgb(63, 84, 95);
+            border-radius: 4px;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(0, 0, 0);
+            border:1px solid rgb(139, 139, 139);
+            border-radius: 4px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(111, 180, 180);
+            border:1px solid rgb(57, 136, 173);
+            border-radius: 4px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+</html>
